@@ -1,1 +1,1 @@
-# Background-Color-Validator
+# Image-Blur-Detector
