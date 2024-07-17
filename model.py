@@ -16,5 +16,3 @@ class BlurClassifier(nn.Module):
     def forward(self, x):
         x = self.model(x)
         return x
-
-# Commit message: "Define model architecture for blur classification"
