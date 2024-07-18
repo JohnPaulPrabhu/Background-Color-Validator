@@ -43,3 +43,4 @@ def train_model(model, criterion, optimizer, scheduler, max_epochs, patience):
             torch.save(model.state_dict(), os.path.join(save_path, "best_model.pth"))
 
     trainer.run(train_loader, max_epochs=max_epochs)
+    
